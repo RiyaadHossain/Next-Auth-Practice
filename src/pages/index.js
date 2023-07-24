@@ -1,5 +1,6 @@
 import { useSession } from "next-auth/react";
 import Head from "next/head";
+
 const HomePage = () => {
   const { data } = useSession()
 

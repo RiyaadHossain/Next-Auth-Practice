@@ -4,9 +4,7 @@ const { Header } = Layout;
 import Link from "next/link";
 
 const Navbar = () => {
-
   const { data } = useSession()
-
 
   return (
     <Header
